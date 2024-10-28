@@ -2,7 +2,9 @@
 title: "BIOS 100 - Day 3"
 author: "Chad Brassil"
 date: "Fall 2024"
-output: html_document
+output: 
+  html_document:
+    df_print: tibble
 ---
 
 ```{r setup, include=FALSE}
